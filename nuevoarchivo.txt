@@ -1,70 +1,7 @@
-Tu identidad
-Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías:
-
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
-
-De nuevo, sólo necesitas hacer esto una vez si especificas la opción --global, ya que Git siempre usará esta información para todo lo que hagas en ese sistema. Si quieres sobrescribir esta información con otro nombre o dirección de correo para proyectos específicos, puedes ejecutar el comando sin la opción --global cuando estés en ese proyecto.
-//////////////////////////////
-
-
-//creo carpeta "ClaseGIT"
-mkdir ClaseGIT
-
-cd CLaseGIT
-
-//crear repositorio con subcomando 'INIT'. El comando principal es GIT
-git init
-//se crea repo vacio en la carpeta se crea '.git' el cual esta oculto
-
-//estado de como se encuentra nuestro repo
-git status
-
-//commit = cualquier operación que hagamos en nuestro repo
-
---aca hago un HTML-- y lo dejo en la carpeta ClaseGIT
-<html>
-<head>
-<title>Bienvenido a mi proyecto</title>
-</head>
-<body>
-<h1>Este es mi proyecto</h1>
-</body>
-</html>
-
-//registro mi cambio en el repositorio, o sea meto el archivo al GIT
-git add miPrimeraWeb.html
-
-//chequeo el estado
-git status
-
-//hago un commit pero me aparece "untracked" entonces no se registro el cambio no sabe GIT que fue lo que hice entonces...
-git commit
-
-//hago un add para que se agregue y se vaya lo de "untracked"
-git add miPrimeraWeb.html
-
-//commit2
-git commit
-
-//escribimos en la zona de texto que nos permite poner el TIPO de cambio que realizamos, explicamos que hicimos y con enter se guarda así no nos perdemos cuando vemos el historial
-
-//para salir de la ventana 'shift+:' escribimos 'wq', enter y listo
-
-//me abre LOG de commits
-git log
-
-//creamos un TXT
-touch readme.txt
-
-//COMMIT V2.0 --> usar! mucho mejor!
-git commit -m "texto identificador en PRESENTE"
-
-
-//Connect Your Local Repository To Your GitHub Repository
-git remote add origin https://github.com/username/myproject.git
-
-//ejemplo
-git remote add origin https://github.com/IngArielS/
-
-//Git now knows there's a remote repository and it's where you want your local repository changes to go. To confirm, type this to
+aasd
+asdasd
+asdasdaÃ±kjp
+sdkpfjsop
+osdjhfojsdhf
+sodfihwoeihfjwf
+editado
